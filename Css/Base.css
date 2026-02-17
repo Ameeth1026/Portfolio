@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Zalando+Sans+Expanded:wght@400;700&display=swap');
+
+:root {
+    --clr1: #ffffff;
+    --clr2: #5B4F59;
+    --clr3: #2d2d2d;
+    --clr4: #CDCDDD;
+    --font-main: "Montserrat", sans-serif;
+    --font-hero: "Zalando Sans Expanded", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-main);
+    list-style: none;
+}
+
+html,
+body {
+    background: var(--clr1);
+    scroll-behavior: smooth;
+}
+
+/* CONTAINER */
+.container {
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}

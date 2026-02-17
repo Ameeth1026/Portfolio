@@ -1,0 +1,91 @@
+
+/* NAVBAR */
+#navbar {
+    height: 73px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--clr1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    z-index: 999;
+}
+
+#navbar .logo {
+    font-size: 22px;
+    color: var(--clr2);
+    cursor: pointer;
+}
+
+#navbar .logo span {
+    color: var(--clr3);
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: var(--clr2);
+}
+
+#navbar ul li a:hover {
+    color: var(--clr3);
+}
+
+#navbar ul span {
+    display: none;
+}
+
+#navbar .fa-bars {
+    display: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+@media (width<=826px) {
+ #navbar ul{
+    display: block;
+    background-color: var(--clr1);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 220px;
+    transition: .3s all ease;
+    right: -100%;
+    box-shadow: -.3px 0 1px var(--clr3);
+    padding-top: 60px;
+ }  
+ #navbar ul li{
+    height: 44px;
+    width: 100%;
+    text-align: center;
+}
+#navbar ul span{
+    display: block;
+    position: absolute;
+    top: 20px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+#navbar .fa-bars{
+    cursor: pointer;
+    display: block ;
+}
+
+
+.swipe{
+    right:0 !important;
+}  
+
+
+
+}

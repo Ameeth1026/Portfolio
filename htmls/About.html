@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ameeth Sharma || Portfolio</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../Css/About.css">
+  <link rel="stylesheet" href="../Css/Navbar.css">
+  <link rel="stylesheet" href="../Css/Footer.css">
+  <link rel="stylesheet" href="../Css/Base.css">
+  <link rel="stylesheet" href="../Css/Project.css">
+  <link rel="stylesheet" href="../Css/Contact.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+      <div class="logo">Ameeth<span>Sharma</span></div>
+      <i class="fas fa-bars"></i>
+
+      <ul>
+        <span><i class="fas fa-xmark"></i></span>
+        <li><a href="../Index.html">Home</a></li>
+        <li><a href="../Index.html#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ABOUT -->
+    <section id="about" class=" about-container">
+
+      <!-- LEFT -->
+      <div class="about-left">
+        <div class="spinner"></div>
+        <img src="../Images/Profile_2.png" alt="Ameeth Sharma">
+      </div>
+
+      <!-- RIGHT -->
+      <div class="about-right">
+        <h1>ABOUT ME</h1>
+
+        <p>
+         <p class="intro">
+  I’m <strong>Ameeth Sharma</strong>, a front-end developer passionate about creating clean, responsive, and interactive web interfaces using modern web technologies. I specialize in building intuitive user experiences that not only look visually appealing but also function seamlessly across devices and platforms. With a strong eye for detail and a focus on performance, I enjoy turning complex designs into efficient, maintainable code. I thrive on solving problems, optimizing workflows, and continuously learning emerging web trends and best practices to deliver high-quality, user-centered digital solutions that make an impact.
+</p>
+
+        </p>
+
+        <p class="experience">
+  I have <strong>1 year of professional experience at 247 Digitize</strong>, where I contributed to various data-driven operations, including data entry, accounts payable, and operational support. During this time, I developed a strong attention to detail and a commitment to accuracy, ensuring that all tasks were completed efficiently and without errors. I collaborated closely with team members to streamline workflows, manage deadlines, and maintain organized records. This experience strengthened my problem-solving skills, enhanced my ability to work under pressure, and provided me with a solid foundation for combining technical knowledge with practical business operations in a professional setting.
+</p>
+
+
+        <!-- EXPERIENCE -->
+        <div class="experience">
+          <h3>Experience</h3>
+          <p>
+            <strong>247 Digitize</strong> — Data Executive <br>
+            <span>Duration:</span> 1 Year
+          </p>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Data Entry</li>
+            <li>Accounts Payable</li>
+          </ul>
+        </div>
+
+
+        <!-- SOCIALS -->
+        <div class="socials">
+          <a href="https://www.instagram.com/brother_ameeth/"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/Ameeth1026"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/ameeth-sharma-073ab22aa/"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <!-- PROJECT -->
+    <section id="project" class="project">
+      <h2>My Projects</h2>
+
+      <ul class="project-menu">
+        <li class="active" data-category="all">All</li>
+        <li data-category="one">Application</li>
+        <li data-category="two">web Design</li>
+        <li data-category="three">Ai</li>
+      </ul>
+
+      <div class="project_div" id="projectGrid">
+        <div class="div1 project-box" data-category="one">
+          <img src="../Images/2.jpg" alt="">
+        </div>
+        <div class="div2 project-box" data-category="two">
+          <img src="../Images/1.jpg" alt="">
+        </div>
+        <div class="div3 project-box" data-category="three">
+          <img src="../Images/3.jpg" alt="">
+        </div>
+        <div class="div4 project-box" data-category="one">
+          <img src="../Images/4.png" alt="">
+
+        </div>
+        <div class="div5 project-box" data-category="two">
+          <img src="../Images/6.png" alt="">
+
+        </div>
+        <div class="div6 project-box" data-category="three">
+          <img src="../Images/5.png" alt="">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+
+      <div class="contact-container">
+
+        <!-- LEFT IMAGE -->
+        <div class="contact-image">
+          <img src="../Images/CONTACT.svg" alt="Contact Image">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="contact-content">
+          <h1>Contact Me</h1>
+
+          <div class="contact-box">
+
+            <!-- FORM -->
+            <form action="https://formspree.io/f/mqedbkrv" method="POST" class="contact-form">
+              <label><i class="fas fa-user"></i> Full Name</label>
+              <input type="text" placeholder="Your name" name="name">
+
+              <label><i class="fas fa-envelope"></i> Email</label>
+              <input type="email" placeholder="Your email" name="email">
+
+              <label><i class="fas fa-message"></i> Message</label>
+              <textarea rows="4" placeholder="Your message" name="message"></textarea>
+
+              <button type="submit">Send Message</button>
+            </form>
+
+            <!-- INFO -->
+            <div class="contact-info">
+              <p class="title">Email</p>
+              <p>ameethsharma1010@gmail.com</p>
+
+              <p class="title">Location</p>
+              <p>India ,<br>Chennai</p>
+
+              <p class="title">Follow Me</p>
+              <div class="contact-socials">
+                <a href="https://www.instagram.com/brother_ameeth/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Ameeth1026"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ameeth-sharma-073ab22aa/"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- FOOTER -->
+  
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-section about">
+      <h2>Ameeth Sharma<span>.</span></h2>
+      <p class="description">
+        Passionate web developer crafting modern, responsive, and user-friendly websites.
+      </p>
+      <div class="social-icons">
+        <a href="https://github.com/Ameeth1026" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ameeth-sharma-073ab22aa/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/brother_ameeth/" target="_blank" aria-label="Twitter"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-section quick-links">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="./CV AMEETH.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section contact">
+      <h2>Contact Me</h2>
+      <p>Get in touch for collaborations or freelance work!</p>
+      <form>
+        <input type="email" placeholder="your.email@example.com" aria-label="Email for contact" />
+      </form>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2026 Ameeth Sharma. All rights reserved | Made with ♥ by
+    <a href="https://ameethsharma.dev" target="_blank" rel="noopener noreferrer">Ameeth Sharma</a>
+  </div>
+</footer>
+
+
+</div>

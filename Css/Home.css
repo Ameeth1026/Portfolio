@@ -1,0 +1,64 @@
+
+/* HOME */
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: url(../Images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0 0 0;
+}
+.home .image{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;
+}
+.home img {
+    height: 800px;
+
+}
+
+.home .content {
+    position: absolute;
+}
+
+.home h1 {
+    font-family: var(--font-hero);
+    font-size: clamp(2.5rem, 7vw + 1rem, 13rem);
+     overflow: visible;
+  line-height: 1;
+  white-space: nowrap;
+    color: var(--clr1);
+    text-align: center;
+    transition: transform 0.15s ease-out;
+}
+
+.home .sub_text {
+    font-family: var(--font-hero);
+    font-size: 80px;
+    color: var(--clr2);
+    -webkit-text-stroke: .3px #fff;
+    text-align: center;
+
+}
+
+
+
+@media (width<=826px) {
+
+#home h1{
+    font-size: 70px;
+   white-space: wrap;
+}
+#home .sub_text{
+    font-size: 30px;
+}
+
+}
